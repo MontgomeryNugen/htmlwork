@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 
-div {
+.top {
     /*border: 1px solid red; */
     width: 49%;
     display: inline-block;
@@ -11,9 +11,34 @@ div {
 
 .rightjust {
     text-align: right;
-    
 }
 
 #img {
     padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    width: 20%;
+}
+
+th {
+    border-bottom: 1px solid #000;
+}
+
+tr, table, th, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+
+.role {
+    font-weight: bold;
+}
+
+.company {
+    font-style: italic;
 }
